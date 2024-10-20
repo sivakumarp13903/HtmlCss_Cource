@@ -1,0 +1,169 @@
+.requestButton{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: top;
+
+
+    transition: opacity,0.5s;
+}
+
+.requestButton:hover{
+    background-color: white;
+    color: black;
+    border-style: solid;
+    
+}
+.requestButton:active{
+    opacity: 0.7;
+}
+
+.addtocharButton{
+    background-color: rgb(255, 216, 0);
+    border-style: none;
+    border-radius: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    vertical-align: auto;
+
+    transition: opacity ,1s;
+}
+
+.addtocharButton:hover{
+    opacity: 0.7;
+}
+
+.addtocharButton:active{
+    background-color: black;
+    color: rgb(255, 216, 0);
+    border-style: solid;
+}
+
+.signup{
+    background-color: rgb(46, 164, 79);
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: box-shadow,0.5s;
+    vertical-align: auto;
+}
+
+.signup:hover{
+    box-shadow: 5px 5px 10px rgb(138, 119, 120);
+
+}
+
+.getstart{
+    background-color: rgb(121, 82, 179);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    cursor: pointer;
+    vertical-align: auto;
+
+    transition: active 1s;
+}
+
+.getstart:active{
+    color: rgb(121, 82, 179);
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(121, 82, 179);
+}
+
+.download{
+    color: rgb(140, 129, 156);
+    background-color: rgb(242, 245, 247);
+    border-radius: 5px;
+    border-color: rgb(114, 68, 184);
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    cursor: pointer;
+    vertical-align: top;
+
+    transition: margin-left 1s,margin-right 1s,padding-righ 1s,padding-left 1s,padding-top 1s,padding-bottom 1s;
+    
+}
+
+.download:hover{
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.linkedin1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 128, 201);
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: none;
+    cursor: pointer;
+
+    transition: background-color 0.15s;
+    
+}
+
+.linkedin1:hover{
+    background-color: rgb(9, 79, 159);
+}
+
+.linkedin2{
+    color: rgb(6, 157, 226);
+    background-color: rgb(249, 249, 249);
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color:rgb(6, 157, 226) ;
+    cursor: pointer;
+    
+}

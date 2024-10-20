@@ -1,0 +1,19 @@
+.side-fix{
+    margin: 0;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(209, 206, 206);
+}
